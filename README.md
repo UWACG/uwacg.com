@@ -1,9 +1,14 @@
 # uwacg.com
-Infrastracture and planning, please commit your changes to this repo instead of uwacg.github.io.   
+To Infrastructure and planning:  
+Please commit your changes to this repository instead of uwacg.github.io.   
 Development of the main site starts here.  
-Commit to master at this very beginning is allowed, but soon will be prohibited as we proceed to dev and staging.  
-Each person please get your branch with a meaningful name as you submit Pull requests.  
-For example: ```Fix/Fix-typo```
+
+## Some Rules
+Please write your commit messages in English only.
+Commit to 'master' at this moment is okay. 
+Do keep in mind as we will soon proceed to 'dev' and 'staging' and prohibit commits to 'master'.  
+Please give your branch a meaningful name as you submit Pull requests.  
+For example: ```Fix/Fix-typo```  
 
 ## Technology choices
 * MongoDB
