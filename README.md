@@ -12,7 +12,7 @@ For example: ```Fix/Fix-typo```
 
 ## Technology choices
 * MongoDB
-* Node.js
+* Node.js 6.10.0 LTS
 * React
 * Nginx
 
@@ -20,3 +20,12 @@ For example: ```Fix/Fix-typo```
 Code style is not strictly enforced, but please follow [Airbnb's style guide](https://github.com/airbnb/javascript) if you can. 
 
 Blog: http://blog.uwacg.com/ (Chinese)
+
+## Start the node.js server
+Have node.js and npm installed in your environment.
+
+    cd server/src
+    npm install
+    npm start
+
+Server will live at localhost:8080.
