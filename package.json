@@ -5,7 +5,11 @@
   "repository": "https://github.com/UWACG/uwacg.com",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ignore-pattern 'node_modules/' ."
+  },
   "dependencies": {
+    "@ljharb/eslint-config": "^11.0.0",
     "eslint": "^3.17.1"
   },
   "devDependencies": {
