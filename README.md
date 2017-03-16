@@ -19,8 +19,6 @@ For example: ```Fix/Fix-typo```
 ## Code Style
 Code style is not strictly enforced, but please follow [Airbnb's style guide](https://github.com/airbnb/javascript) if you can. 
 
-Blog: http://blog.uwacg.com/ (Chinese)
-
 ## Start the node.js server
 Have node.js and npm installed in your environment.
 
@@ -29,3 +27,6 @@ Have node.js and npm installed in your environment.
     npm start
 
 Server will live at localhost:8080.
+
+## Other
+Blog: http://blog.uwacg.com/ (Chinese)
