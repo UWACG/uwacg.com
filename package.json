@@ -13,7 +13,8 @@
     "@ljharb/eslint-config": "^11.0.0",
     "eslint": "^3.18.0",
     "express": "^4.15.2",
-    "morgan": "^1.8.1"
+    "morgan": "^1.8.1",
+    "winston": "^2.3.1"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
