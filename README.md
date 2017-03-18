@@ -7,8 +7,8 @@ Development of the main site starts here.
 Please write your commit messages in English only.
 Commit to 'master' at this moment is okay. 
 Do keep in mind as we will soon proceed to 'dev' and 'staging' and prohibit commits to 'master'.  
-Please give your branch a meaningful name as you submit Pull requests.  
-For example: ```Fix/Fix-typo```  
+Please give your branch a meaningful prefixes as you submit Pull requests.  
+For example: `fix/type` or `feature/issue-templates`  
 
 ## Technology choices
 * MongoDB
