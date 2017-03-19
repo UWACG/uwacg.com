@@ -22,7 +22,6 @@ Code style is not strictly enforced, but please follow [Airbnb's style guide](ht
 ## Start the node.js server
 Have node.js and npm installed in your environment.
 
-    cd server/src
     npm install
     npm start
 
