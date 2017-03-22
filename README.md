@@ -22,9 +22,13 @@ Code style is not strictly enforced, but please follow [Airbnb's style guide](ht
 ## Setup local development environment
 **Install Nginx.**
 
-	sudo apt-get install nginx
+	sudo apt-get install nginx (Linux)
+	brew install nginx (mac) and after installing: sudo nginx
+
+	ps. for mac if you don't have homebrew, use this command to get it: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 If you have apache installed, remove apache or edit `/etc/apache2/ports.conf`
+for mac, it maybe under /Library/Webserver/Documents/apache2, but not guaranteed. 
 change `Listen 80` to `Listen [any usable port other than 80 and 8080]`
 restart apache and nginx
 
