@@ -62,13 +62,25 @@ To enable the site, symbolic link test.uwacg to /etc/nginx/sites-enabled
 	for mac nginx is in /usr/local/var/run
 NOTE: You must use absolute path to create the link
 
-## Start the node.js server (TODO: change to PM2 method)
-Have node.js and npm installed in your environment.
+## Start the node.js server (TODO: add start script for system reboot)
+Have PM2 installed in your environment.
 
-    npm install
-    npm start
+    sudo npm install pm2 -g
+    pm2 start npm --name [appName] -- start
 
-Server will live at localhost:8080.
+To stop server
+
+	pm2 stop [appName]
+
+To start server
+
+	pm2 start [appName]
+
+To restart server
+
+	pm2 restart [appName]
+
+Server will live at localhost:80. [appName] does not have to be project name.
 
 ## Other
 Blog: http://blog.uwacg.com/ (Chinese)

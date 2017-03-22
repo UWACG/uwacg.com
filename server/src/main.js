@@ -5,6 +5,10 @@
 
 // Server framework, https://github.com/expressjs/express
 const express = require('express');
+
+// Server config
+const config = require('../../config');
+
 // Logging middleware, https://github.com/expressjs/morgan
 const morgan = require('morgan');
 const path = require('path');
@@ -21,6 +25,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../../client/src', 'index.html'));
 });
 
-const port = 8080;
+const port = config.port;
 app.listen(port);
 logger.info(`Server is running on port ${port}!`);
