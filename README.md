@@ -40,6 +40,8 @@ restart apache and nginx
 	sudo apt-get install npm
 	sudo apt-get install nodejs
 
+	for mac, use brew intead apt-get as mentioned above. 
+
 Try command `node -v` after installation. It is very likely you will see this error message `/usr/sbin/node: No such file or directory`, fix it by symbolic link `nodejs` to `node` in `/usr/bin`.
 
 	sudo ln -s /usr/bin/nodejs /usr/bin/node
@@ -57,7 +59,7 @@ Server config file can be found in project root directory.
 To enable the site, symbolic link test.uwacg to /etc/nginx/sites-enabled
 
 	sudo ln -s /etc/nginx/sites-available/test.uwacg /etc/nginx/sites-enabled
-
+	for mac nginx is in /usr/local/var/run
 NOTE: You must use absolute path to create the link
 
 ## Start the node.js server (TODO: change to PM2 method)
